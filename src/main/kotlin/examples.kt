@@ -1,0 +1,14 @@
+package org.example
+
+fun main() {
+    val num1: Int = 7
+    val num2 = 3
+
+    // num2 = 4 val can NOT be reassigned
+    // We can NOT change the value of anything created with val
+
+    val num3 = num1/num2
+
+    println("$num1 / $num2 is $num3")
+
+}
