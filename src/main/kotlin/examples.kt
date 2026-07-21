@@ -18,6 +18,10 @@ fun main() {
     println("My dog's name is $dog")
     // var creates a variable which can be reassigned
 
+    val yes: Boolean = true
+    val no: Boolean = false
 
+    val notYes: Boolean = !yes
+    println("Yes: $yes, No: $no, Not Yes: $notYes")
 
 }
