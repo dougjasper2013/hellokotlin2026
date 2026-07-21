@@ -24,4 +24,13 @@ fun main() {
     val notYes: Boolean = !yes
     println("Yes: $yes, No: $no, Not Yes: $notYes")
 
+    if (yes == !no)
+    {
+        println("These are the same")
+    }
+    else
+    {
+        println("These are NOT the same")
+    }
+
 }
