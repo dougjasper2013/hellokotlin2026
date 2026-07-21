@@ -33,4 +33,30 @@ fun main() {
         println("These are NOT the same")
     }
 
+    // ***** Note: Variables and Constants use camel casing for names *****
+    val hourOfDay = 10
+
+    val timeOfDay = if (hourOfDay < 6 ) {
+        "Early Morning"
+    }
+    else if (hourOfDay < 12) {
+        "Morning"
+    }
+    else if (hourOfDay < 17) {
+        "Afternoon"
+    }
+    else if (hourOfDay < 20) {
+        "Evening"
+    }
+    else if (hourOfDay < 24) {
+        "Late Evening"
+    }
+    else {
+        "INVALID HOUR!"
+    }
+
+    println("hourOfDay is $hourOfDay, timeOfDay is $timeOfDay")
+
+
+
 }
