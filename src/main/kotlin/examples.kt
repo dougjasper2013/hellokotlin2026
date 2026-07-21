@@ -57,6 +57,12 @@ fun main() {
 
     println("hourOfDay is $hourOfDay, timeOfDay is $timeOfDay")
 
+    var counter = 10
+
+    counter++
+    println("Counter is $counter")
+
+    // == and -- allowed in kotlin
 
 
 }
