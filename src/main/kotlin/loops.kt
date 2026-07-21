@@ -21,5 +21,13 @@ fun main() {
     // do while always executes at leat once
     // while may or may not execute at least once
 
+    var sum3 = 1
+
+    for (i in 1..5) {
+        sum3 = sum3 + (i * 2)
+        println(sum3)
+    }
+    println("The loop is finished and the sum is $sum3")
+
 
 }
