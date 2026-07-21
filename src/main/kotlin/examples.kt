@@ -11,4 +11,13 @@ fun main() {
 
     println("$num1 / $num2 is $num3")
 
+    var dog = "Odie"
+    println("My dog's name is $dog")
+
+    dog = "Lassie"
+    println("My dog's name is $dog")
+    // var creates a variable which can be reassigned
+
+
+
 }
